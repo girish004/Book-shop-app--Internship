@@ -23,7 +23,18 @@ body {
 }
 */
 
-.container:hover {
+.algn {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+}
+
+.hov {
+    display: block;
+}
+
+.hov:hover {
     border-radius: 9px;
     background: #f2eded;
     box-shadow: -8px 8px 16px #b6b2b2, 8px -8px 16px #ffffff;
@@ -37,12 +48,12 @@ body {
 
 input[type="submit"] {
     margin-bottom: 15px;
-    width: 55px;
+    width: 82px;
     height: 35px;
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
     border-radius: 9px;
-    background: #e3dede;
+    background: #6633ff;
     box-shadow: 47px 47px 94px #d3cece, -47px -47px 94px #f3eeee;
 }
 
