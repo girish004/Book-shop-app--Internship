@@ -11,7 +11,6 @@
 }
 
 body {
-    margin: 5px;
     font-family: sans-serif;
     background: #f3f2ef;
 }
@@ -387,7 +386,8 @@ video {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        /*align-items: flex-start;*/
+        align-items: 25px;
         gap: 0.75rem;
         padding: 1rem 0;
     }
